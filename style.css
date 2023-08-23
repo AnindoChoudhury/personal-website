@@ -1,0 +1,338 @@
+body{
+    background-color: black;
+}
+/* First slide */
+#main-landing-page
+{
+    background:linear-gradient(to bottom right,rgb(2, 9, 18),82%,rgba(99, 6, 99, 0.97));
+    height : 100vh;
+}
+
+.header h1
+{
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: left;
+    font-size : 4rem;
+}
+h4
+{
+    color : white;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.header span
+{
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(152, 232, 205);
+    text-decoration: none;
+    
+}
+.header
+{
+    padding-top : 60px;
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: left;
+    height :90%;
+}
+
+/* Second slide */
+.about
+{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+#about-me
+{
+    /* color 2; */
+     /* background: linear-gradient(rgb(82, 109, 130,1),#F9F5F6);  */
+     background-color: #EEEEEE;
+    margin-bottom: 0;
+}
+.aboutme
+{
+    display : inline-flex;
+    flex-direction: column;
+    align-items : flex-start;
+    margin-top : 50px;
+    
+}
+.interest
+{
+    width :60%;
+    margin-left : 20%;
+    box-shadow : 0px -5px 20px 10px gray;
+    margin-top : 20px;
+    
+    border-radius : 30px 30px 0 0 ;
+    
+}
+
+/* 3rd slide */
+
+#credential 
+{
+    background:linear-gradient(to bottom right,#B71375,27%,rgb(2,9,18),rgb(2,9,18),rgb(2,9,18));
+    padding-bottom : 60px;
+   
+    margin-top:0;
+}
+.cred-subheading
+{
+    text-align: left;
+}
+.cred h2
+{
+    font-size: 1.3rem;
+    margin-bottom : 10px;
+    color : white;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Mono', monospace;
+    text-align: right;
+}
+
+.crop2
+{
+    display:inline-flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.cred
+{
+    margin-top : 100px;
+    
+}
+
+.interest2
+{       width : 60%;
+        margin-left : 20%;
+        /* box-shadow: 0 280px 900px 50px rgba(114, 12, 114, 0.662); */
+        border-radius : 0 0 30px 30px;
+        margin-top : 0px;
+}
+.cred-heading
+{
+    display : flex; 
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.subhead-div
+{
+    display:flex;
+    justify-content: flex-start;
+}
+.cred-details
+{
+    padding : 50px;
+    background:linear-gradient(to bottom right,rgb(2, 9, 18),70%,rgba(99, 6, 99, 0.97));
+    border-radius : 30px;
+}
+
+
+/* 4th slide */
+#works
+{
+    margin:0;
+    border : 0;
+    background: linear-gradient(180deg,rgb(2, 9, 18),30%,#B70404,black);
+    padding-bottom :150px;
+    padding-top : 90px;
+}
+iframe
+{
+    width : 100%;
+    height : 26em;
+    border-radius: 30px;
+    border : none;
+    box-shadow : 0 0 40px 10px black;
+}
+.tindog-row
+{
+    margin-bottom: 170px;
+}
+.work-des
+{
+    display : flex; 
+    flex-direction: column;
+    justify-content : center;
+}
+.work-des h1 , .work-des p
+{
+      color : white;
+      text-align: center;
+}
+
+/* 5th slide */
+#interest-section
+{
+    padding-top: 100px;
+background:linear-gradient(black,30%,#0d054d,90%,rgba(130, 9, 130, 0.461));
+    padding-bottom: 110px;
+}
+.carousel-inner
+{
+    border-radius: 50px;
+    /* box-shadow : 0px 0px 30px 5px gray,0 -10px 30px 10px gray; */
+    width : 100%; 
+    margin:auto;
+}
+.carousel-caption h5, .carousel-caption p
+{
+    color : rgba(255, 255, 255, 0.744);
+}
+
+.card-cover
+{
+    border-radius:50px;
+}
+.interest-tile
+{
+    height : 160px;
+    margin-bottom : 10px;
+} 
+#fourth-interest
+{
+    margin-bottom : 10px;
+}
+#fifth-interest
+{
+    height : 250px;
+}
+
+
+/* 6th slide */
+#contact
+{
+    padding-top : 100px;
+    background-color: white;
+    padding-bottom:100px;
+}
+.svgicons
+{
+    display:flex;
+    justify-content: center;
+}
+.contact-heading
+{
+    text-align: center;
+    margin-top:20px;
+}
+.contacts .button:hover
+{
+    background-color : black;
+}
+.contacts .button
+{
+    padding : 10px;
+}
+.margin-div
+{
+    
+    display:flex;
+    justify-content: center;
+}
+.contacts
+{
+    margin-top:150px;
+}
+/* Mobile adaptation */
+@media screen and (max-width : 992px)
+{
+    
+    #main-landing-page
+    {
+        background:linear-gradient(to bottom right,rgb(2, 9, 18),60%,rgba(99, 6, 99, 0.97));
+
+    }
+    .cred-heading h2 
+    {
+        margin-bottom : 80px;
+    }
+    .cred-subheading
+    {
+        padding-bottom : 20px;
+    }
+    .tindog,.youtube
+    {
+        display:flex;
+        justify-content: center;
+        height : 300px;
+    }
+    #tindog-embed
+    {
+        height:500px;
+    }
+    iframe
+    {
+        width:100%;
+        height : 100%;
+    }
+    .work-des 
+    {
+        margin-top : 60px;
+    }
+    .subhead-div
+    {
+        display:flex;
+        justify-content: center;
+    }
+    #works
+    {
+        padding-top : 0px;
+    }
+    #credential
+    {
+        padding-bottom:0px;
+    }
+    .cred-details .row h2
+    {
+    text-align: center;
+    }
+    
+    .interest
+    {
+        width:100%;
+        margin: auto;
+    }
+    .interest2
+    {
+        width:100%;
+        margin:auto;
+    }
+    .interest-tile
+    {
+        height : 200px;
+    }
+    .column-2-grid
+    {
+        padding-top : 100px;
+    }
+    #fifth-interest,#fourth-interest
+    {
+        height: 200px;
+        
+    }
+    .carousel-inner
+    {
+        width:100%;
+    }
+    
+   
+    .margin-div
+    {
+        margin-bottom :50px;
+    }
+    .contacts
+    {
+        margin-top:50px;
+    }
+}
+
