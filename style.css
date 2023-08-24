@@ -29,6 +29,10 @@ h4
     font-style: normal;
     color: rgb(152, 232, 205);
     text-decoration: none;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> c2f2610 (Font style of credential and About me)
 }
 .header
 {
@@ -245,6 +249,10 @@ background:linear-gradient(black,30%,#0d054d,90%,rgba(130, 9, 130, 0.461));
 /* Mobile adaptation */
 @media screen and (max-width : 992px)
 {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> c2f2610 (Font style of credential and About me)
     #main-landing-page
     {
         background:linear-gradient(to bottom right,rgb(2, 9, 18),60%,rgba(99, 6, 99, 0.97));
