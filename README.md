@@ -6,7 +6,6 @@ Welcome to my very first portfolio website! This website was created by me using
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Customization](#customization)
 - [Contributing](#contributing)
 - [License](#license)
 
