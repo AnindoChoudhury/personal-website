@@ -12,17 +12,9 @@ Welcome to my very first portfolio website! This website was created by me using
 
 ## Features
 
-1. **Home Page**: The home page provides an introduction to who I am and what I do. It features a welcoming header and a brief bio.
+1. **Responsive Design**: The website is designed to be responsive, ensuring it looks great on various devices, from desktops to smartphones.
 
-2. **Portfolio**: This section showcases my work, including projects, designs, or any other accomplishments. Each project has its own page with descriptions and images.
-
-3. **About Me**: Learn more about me, my background, skills, and what I'm passionate about.
-
-4. **Contact**: Get in touch with me through the contact form provided. Your messages will be sent directly to my email.
-
-5. **Responsive Design**: The website is designed to be responsive, ensuring it looks great on various devices, from desktops to smartphones.
-
-6. **Bootstrap Integration**: Bootstrap is used to enhance the website's visual appeal and to simplify layout and design.
+2. **Bootstrap Integration**: Bootstrap is used to enhance the website's visual appeal and to simplify layout and design.
 
 ## Technologies Used
 
@@ -43,16 +35,6 @@ If you want to run this website locally, follow these steps:
 2. Open the project folder in your code editor.
 
 3. Launch the website by opening the `index.html` file in your web browser.
-
-## Customization
-
-Feel free to customize this portfolio website to make it your own. Here are some suggestions for customization:
-
-- Update the content in the HTML files to reflect your own experiences, projects, and personal information.
-
-- Modify the CSS to change the visual style and color scheme to match your personal branding.
-
-- Add more sections or features that showcase your skills and achievements.
 
 ## Contributing
 
